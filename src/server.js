@@ -1,19 +1,20 @@
 const express = require('express')
-const mongoose = require('mongoose')
 const path = require('path')
+
+const db = require('./database')
+const routes = require('../routes')
+const { getMaxListeners } = require('process')
 
 const app = express()
 
-mongoose.connect('mongodb://127.0.0.1:27017/')
 
 
-const db = mongoose.connection
+//conexão com o banco de dados
+db.connect()
 
-db.once('open', () => {
-    console.log('Conectado no banco de dados!')
-})
 
-db.on('error', console.error.bind(console, 'connection error: '))
+
+
 
 //definindo o template engine
 app.set('view engine', 'ejs')
@@ -25,12 +26,9 @@ app.use(express.static(path.join(__dirname, 'public')))
 // habilita server para receber dados via post (formulário)
 app.use(express.urlencoded({ extended: true }))
 
-//rotas
-app.get('/', (req, res) => {
-    res.render('index', {
-        title: 'Título Teste'
-    })
-})
+ // definindo as rotas
+app.use('/', routes)
+
 
 // 404 error (not found)
 app.use((req, res) => {

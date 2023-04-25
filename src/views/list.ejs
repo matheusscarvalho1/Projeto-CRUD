@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('partials/head.ejs')%>
+</head>
+<body>
+    <h1> <%= title %></h1>
+    <%- include('partials/navbar.ejs')%>
+
+    <p>Favor, atualize a página para ver o resultado!</p>
+<ul>
+<% users.forEach((user) => { %>
+        <li>
+            <b>Nome do usuário:</b> <%= user.name %><br>
+            <b>E-mail:</b> <%= user.email %><br>
+            <b>Idade:</b> <%= user.age %><br>
+            <a href="/edit?id=<%= user._id %>">[EDITAR]</a><br>
+            <a href="/remove/<%= user._id %>">[REMOVER]</a>
+            <br>
+            <br>
+        </li>
+    <% }) %>
+</ul>
+
+
+
+    <%- include('partials/foot.ejs')%>
+</body>
+</html>
