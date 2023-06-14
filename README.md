@@ -1,5 +1,4 @@
 # projeto-crud
-Node.js + MongoDB
 
 npm install nodemon
 
