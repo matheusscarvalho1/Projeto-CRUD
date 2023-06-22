@@ -65,5 +65,62 @@ torna a manutenção e evolução do sistema mais fácil.
 
 # Resultados
 
+<b>Página Inicial</b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/58b53ce0-7320-497a-9444-143265aeb21e)
 
 <hr>
+
+<b>Página de Cadastro de clientes - Create</b> 
+
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/23e16c53-4daa-410c-aa01-0079d1d7313a)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/18ca6868-e4ff-4c60-906e-30342ed0118a)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/b57aee85-f44e-4318-948f-d684459dba99)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/d7dc33ff-1822-46cc-8f38-1f2fd135f8ba)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/5f4cbef4-ab02-45d6-a470-de5f32de8a31)
+
+
+<hr>
+
+# <b>Página de Listagem de clientes cadastrados no banco de dados - Read</b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/ca4f3417-10c2-4882-8e62-640ac88e4a8b)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/5a72b2b5-e5a6-489a-9e7a-664c19a2d5d6)
+
+# <b>Editando cadastro - Update</b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/a0868fc0-4006-430d-bdec-fd210e07e3aa)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/a7ef1bab-ecde-4831-806f-701e5a973da6)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/fa9a646c-6057-4864-b6b1-060f75de2a65)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/58ae4a95-2c4f-4d4a-8690-6bf4e0578fc5)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/38dab9a2-8fd3-47dc-8118-0de9ef71da7a)
+
+
+# <b>Apagando cadastro - Delete</b>
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/cbf4c553-aca9-4f0e-b52c-b4105e7abd06)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/aa9165d5-7735-46cb-ad5f-e7f63157ef65)
+
+![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/c27e90e4-eb20-4d1d-82c9-185fb918037a)
+
+
+<hr>
+
+# Autor
+
+Matheus de Souza Carvalho
+
+Linkedin: https://www.linkedin.com/in/matheusscarvalho/
+
+E-mail: matheusdocarvalho@gmail.com
