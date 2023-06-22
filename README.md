@@ -64,38 +64,62 @@ torna a manutenção e evolução do sistema mais fácil.
 # Resultados
 
 # Página Inicial
+Como dito anteriormente, a aplicação não possui um layout robusto, foi desenvolvido com a finalidade de praticar conceitos de criação de servidor e armazenamento em banco de dados através de APIs com métodos HTTP.
+Então, esta é a página inicial, contendo as duas os botões para o cadastro e listagem dos dados já cadastrados.
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/58b53ce0-7320-497a-9444-143265aeb21e)
 
 
 # Página de Cadastro de clientes - Create
 
+Ao clicar no primeiro botão como ilustra a imagem abaixo:
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/23e16c53-4daa-410c-aa01-0079d1d7313a)
 
+O formulário de cadastro de clientes será aberto, nesse formulário o usuário vai armazenar o nome completo do cliente, idade e-mail e senha, como ilustra a figura abaixo:
+
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/18ca6868-e4ff-4c60-906e-30342ed0118a)
+
+
+Nas imagens abaixo ilustram o preenchimento dos campos e o armazenamento no banco de dados como é possível ver na imagem do MongoDB Compass que é uma ferramenta interativa para consultar, otimizar e analisar os dados do MongoDB.
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/b57aee85-f44e-4318-948f-d684459dba99)
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/d7dc33ff-1822-46cc-8f38-1f2fd135f8ba)
 
+MongoDB Compass
+
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/5f4cbef4-ab02-45d6-a470-de5f32de8a31)
+
+Perceba que as senhas armazenadas estão diferentes do que foi preenchido, ela esta criptografada graças a ferramenta 'bcrypt'.
 
 
 
 # Página de listagem de clientes cadastrados - Read
 
+Ao clicar no segundo botão como ilustra a imagem abaixo:
+
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/ca4f3417-10c2-4882-8e62-640ac88e4a8b)
+
+Será exibido todos os cadastro realizados na página de cadastro previamente, dados completos do formulárco como: nome completo do cliente, idade e e-mail, como ilustra a figura abaixo:
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/5a72b2b5-e5a6-489a-9e7a-664c19a2d5d6)
 
 # Editando cadastro - Update
 
+Ao clicar no botão '[EDITAR]' será aberto um formulário preenchido com os dados salvos do registro feito anteriormente para o usuário efetuar a correção dos dados, como ilustra nas imagens abaixo:
+
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/a0868fc0-4006-430d-bdec-fd210e07e3aa)
+
+Dados previamentes preenchidos:
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/a7ef1bab-ecde-4831-806f-701e5a973da6)
 
+Dados sendo corrigidos:
+
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/fa9a646c-6057-4864-b6b1-060f75de2a65)
+
+Registrando os dados editados e salvando no banco de dados sobrescrevendo o que estava salvo anteriormente:
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/58ae4a95-2c4f-4d4a-8690-6bf4e0578fc5)
 
@@ -103,6 +127,8 @@ torna a manutenção e evolução do sistema mais fácil.
 
 
 # Apagando cadastro - Delete
+
+E para completar as quatro operações básicas permite realizar as principais tarefas de manipulação de dados em um banco de dados, o Delete, ao clicar no botão '[REMOVER]' o registro no banco de dados é apagado, conforme ilustram as imagens abaixo:
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/cbf4c553-aca9-4f0e-b52c-b4105e7abd06)
 
