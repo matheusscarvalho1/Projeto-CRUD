@@ -41,8 +41,6 @@ Já o <b>CSS</b> (Folhas de Estilo em Cascatas), que é uma linguagem de estilo 
 
 Foram utilizados também a biblioteca <b>Bcrypt</b> que é amplamente utilizada para armazenar senhas com segurança em bancos de dados, pois possui  uma função de hash de senhas criptograficamente segura, pois ela foi projetada para ser lenta e resistente a ataques de força bruta, dificultando a decodificação de senhas por meio de tentativa e erro, e para auxiliar no processo de criação da aplicação e ajustes do sistema a ferramenta de desenvolvimento <b>Nodemon</b> que ajuda desenvolvedores Node.js a monitorar e reiniciar automaticamente seus aplicativos quando ocorrem alterações nos arquivos do projeto. Ele é frequentemente usado durante o desenvolvimento para agilizar o processo de teste e depuração, eliminando a necessidade de reiniciar manualmente o servidor a cada modificação no código.
 
-<hr>
-
 # Padrão MVC 
 
 Para a melhor organização do projeto, na implementação do código, foi utilizado o
@@ -65,13 +63,12 @@ torna a manutenção e evolução do sistema mais fácil.
 
 # Resultados
 
-<b>Página Inicial</b>
+# Página Inicial
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/58b53ce0-7320-497a-9444-143265aeb21e)
 
-<hr>
 
-<b>Página de Cadastro de clientes - Create</b> 
+# Página de Cadastro de clientes - Create
 
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/23e16c53-4daa-410c-aa01-0079d1d7313a)
@@ -85,15 +82,14 @@ torna a manutenção e evolução do sistema mais fácil.
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/5f4cbef4-ab02-45d6-a470-de5f32de8a31)
 
 
-<hr>
 
-# <b>Página de Listagem de clientes cadastrados no banco de dados - Read</b>
+# Página de listagem de clientes cadastrados - Read
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/ca4f3417-10c2-4882-8e62-640ac88e4a8b)
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/5a72b2b5-e5a6-489a-9e7a-664c19a2d5d6)
 
-# <b>Editando cadastro - Update</b>
+# Editando cadastro - Update
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/a0868fc0-4006-430d-bdec-fd210e07e3aa)
 
@@ -106,7 +102,7 @@ torna a manutenção e evolução do sistema mais fácil.
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/38dab9a2-8fd3-47dc-8118-0de9ef71da7a)
 
 
-# <b>Apagando cadastro - Delete</b>
+# Apagando cadastro - Delete
 
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/cbf4c553-aca9-4f0e-b52c-b4105e7abd06)
 
@@ -115,7 +111,6 @@ torna a manutenção e evolução do sistema mais fácil.
 ![image](https://github.com/matheusscarvalho1/Projeto-CRUD/assets/73304785/c27e90e4-eb20-4d1d-82c9-185fb918037a)
 
 
-<hr>
 
 # Autor
 
