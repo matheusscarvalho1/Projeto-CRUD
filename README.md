@@ -1,8 +1,8 @@
-# projeto-crud
+# Projeto-CRUD
 
 Desenvolvido para estudos afim aprimorar e enriquecer meus conhecimentos na stack back-end com node.js
 
-# Dependencias
+# Dependências
 
 Para rodar a aplicação você deve instalar algumas ferramentas incluindo a 'Nodemon' através do node package manager:
 então instale digitando no console: 'npm install nodemon --save -dev' e configure em 'scripts' 'nodemon src/server.js' no package.json como ilustra a imagem abaixo:
