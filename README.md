@@ -1,5 +1,6 @@
 # projeto-crud
 
+Desenvolvido para estudos para aprimorar e enriquecer meus conhecimentos na stack back-end com node.js
 
 # Dependencias
 
