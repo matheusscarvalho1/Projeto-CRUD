@@ -5,7 +5,7 @@ Desenvolvido para estudos afim aprimorar e enriquecer meus conhecimentos na stac
 # Dependências
 
 Para rodar a aplicação você deve instalar algumas ferramentas incluindo a 'Nodemon' através do node package manager:
-então instale digitando no console: 'npm install nodemon --save -dev' e configure em 'scripts' 'nodemon src/server.js' no package.json como ilustra a imagem abaixo:
+então instale digitando no console: 'npm install nodemon --save -dev' e configure em 'scripts' 'nodemon src/server.js' no package.json (para que o servidor inicie através do nodemon e assim reiniciar automaticamente a cada mudança no código) como ilustra a imagem abaixo:
 
 
 ![image](https://github.com/matheusscarvalho1/projeto-crud/assets/73304785/f0496aea-16a4-46a8-8243-9a0cb28efaab)
