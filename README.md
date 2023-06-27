@@ -1,6 +1,6 @@
 # Projeto-CRUD
 
-Desenvolvido para estudos afim aprimorar e enriquecer meus conhecimentos na stack back-end de desenvolvimento web com node.js
+Desenvolvido para estudos afim aprimorar e enriquecer meus conhecimentos na stack back-end de uma aplicação web com node.js
 
 # Dependências
 
