@@ -11,7 +11,19 @@ então instale digitando no console: 'npm install nodemon --save -dev' e configu
 ![image](https://github.com/matheusscarvalho1/projeto-crud/assets/73304785/f0496aea-16a4-46a8-8243-9a0cb28efaab)
 
 
-Para rodar a aplicação no localhost:8080, é preciso executar 'npm run dev' no console git bash.
+## Comandos
+
+Para instalar as bibliotecas e dependências:
+
+```bash
+npm i
+```
+
+Para rodar o projeto:
+
+```bash
+npm run dev
+```
 
 
 # Tecnologias utilizadas
